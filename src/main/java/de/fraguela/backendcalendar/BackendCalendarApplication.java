@@ -1,0 +1,13 @@
+package de.fraguela.backendcalendar;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BackendCalendarApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(BackendCalendarApplication.class, args);
+    }
+
+}
